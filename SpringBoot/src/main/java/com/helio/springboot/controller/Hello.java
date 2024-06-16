@@ -8,7 +8,8 @@ public class Hello {
 
     @GetMapping
     public String hello() {
-        return "Hello World,and hello again!";
+        return "Hello World,and hello again!\n使用这一行注释测试github推送是否正常运行";
+
         //使用这一行注释测试github推送是否正常运行
     }
 }
